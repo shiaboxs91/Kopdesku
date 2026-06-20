@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { Plus } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { NAV_KIRI, NAV_KANAN, FAB_GABUNG, isTabAktif } from "./nav-config";
+import NavPendingBar from "./nav-pending-bar";
 
 function TabLink({
   href,
@@ -28,6 +29,7 @@ function TabLink({
       {aktif && (
         <span className="absolute top-0 h-0.5 w-7 rounded-full bg-merah" />
       )}
+      {!aktif && <NavPendingBar />}
       <Icon className={cn("h-[22px] w-[22px]", aktif && "stroke-[2.6]")} />
       <span className={cn("text-[10px] font-semibold", aktif && "font-bold")}>
         {label}
@@ -83,6 +85,7 @@ export default function BottomNav() {
           )}
         >
           <Plus className="h-6 w-6 stroke-[3]" />
+          {!fabAktif && <NavPendingBar />}
         </Link>
       </div>
     </nav>

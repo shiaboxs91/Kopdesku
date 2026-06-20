@@ -75,3 +75,23 @@ body {
     animation: none;
   }
 }
+
+/* Indikator transisi navigasi (useLinkStatus).
+   Mulai transparan, baru tampil setelah 120ms — navigasi instan tak berkedip. */
+@keyframes link-hint-in {
+  to {
+    opacity: 1;
+  }
+}
+
+.link-hint {
+  opacity: 0;
+  animation: link-hint-in 0.2s ease 0.12s forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link-hint {
+    animation: none;
+    opacity: 1;
+  }
+}

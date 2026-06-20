@@ -1,4 +1,3 @@
-import { createClient } from "@/lib/supabase/server";
 import { createStaticClient } from "@/lib/supabase/static";
 import type {
   Desa,
@@ -22,7 +21,7 @@ export type EtalaseData = {
 export async function getEtalaseDesa(
   slug: string
 ): Promise<EtalaseData | null> {
-  const supabase = await createClient();
+  const supabase = createStaticClient();
 
   const { data: desa } = await supabase
     .from("desa")
