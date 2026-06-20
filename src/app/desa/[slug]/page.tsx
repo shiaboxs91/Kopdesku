@@ -55,7 +55,7 @@ export default async function DesaPage({
           />
         )}
 
-        <section>
+        <section id="produk" className="scroll-mt-20">
           <SectionHead
             judul="Hasil Bumi Desa"
             ket="Produk unggulan warga, dijual langsung tanpa tengkulak."
@@ -63,7 +63,7 @@ export default async function DesaPage({
           <ProdukGrid produk={produk} />
         </section>
 
-        <section>
+        <section id="transparansi" className="scroll-mt-20">
           <SectionHead
             judul="Keuangan Terbuka"
             ket="Setiap rupiah yang masuk dan keluar dari kas koperasi, terlihat oleh semua."
