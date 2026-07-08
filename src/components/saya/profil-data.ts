@@ -14,10 +14,10 @@ export const PROFIL_DUMMY: ProfilAnggota = {
   nama: "Dewi Lestari",
   panggilan: "Dewi",
   peran: "Anggota Aktif · Penggerak Muda",
-  desa: "Kopdes Merah Putih Pengiringan",
+  desa: "Kopdes Merah Putih Durian",
   sejak: "Maret 2025",
   deskripsi:
-    "Petani muda generasi penerus di Desa Pengiringan. Mengelola lahan padi keluarga sekaligus memasarkan hasil bumi lewat koperasi. Percaya koperasi desa bisa jadi masa depan anak muda kampung.",
+    "Petani muda generasi penerus di Desa Durian, Sambas. Mengelola hasil bumi keluarga sekaligus memasarkan produk lokal lewat koperasi. Percaya koperasi desa bisa jadi masa depan anak muda kampung.",
   simpanan: { pokok: 100_000, wajib: 240_000, sukarela: 350_000 },
   kontribusi: { poin: 1_250, ajakan: 8, peringkat: 3 },
 };

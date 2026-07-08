@@ -1,7 +1,7 @@
 import { Home, Sprout, HandHeart, UserRound, type LucideIcon } from "lucide-react";
 
 /** Desa utama untuk MVP demo (root redirect ke sini). */
-export const DESA_UTAMA = "pengiringan";
+export const DESA_UTAMA = "durian";
 
 export type NavItem = {
   href: string;

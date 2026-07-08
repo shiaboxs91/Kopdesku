@@ -12,7 +12,7 @@ export default function NotFound() {
         keliru.
       </p>
       <Link
-        href="/desa/pengiringan"
+        href="/desa/durian"
         className="mt-6 inline-flex items-center justify-center rounded-full bg-merah px-6 py-3 text-sm font-bold text-white transition-transform hover:scale-[1.03] active:scale-95"
       >
         Lihat desa percontohan

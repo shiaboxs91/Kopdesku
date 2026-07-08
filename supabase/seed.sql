@@ -1,7 +1,7 @@
 -- =============================================================
 -- KopdesKu — Seed Data Demo (1 desa realistis)
 -- CATATAN: Profil desa (nama, penduduk, komoditas) berbasis data
--- publik Kopdes Pengiringan. Data anggota/simpanan/transaksi di
+-- publik Kopdes Durian. Data anggota/simpanan/transaksi di
 -- bawah adalah ILUSTRASI DEMO untuk memperagakan alur produk,
 -- BUKAN data resmi koperasi.
 -- Jalankan SETELAH schema.sql.
@@ -19,14 +19,14 @@ delete from desa;
 insert into desa (id, slug, nama, desa_nama, kecamatan, kabupaten, provinsi, jumlah_penduduk, cerita, komoditas)
 values (
   '11111111-1111-1111-1111-111111111111',
-  'pengiringan',
-  'Kopdes Merah Putih Pengiringan',
-  'Desa Pengiringan',
-  'Bantarbolang',
-  'Pemalang',
-  'Jawa Tengah',
+  'durian',
+  'Kopdes Merah Putih Durian',
+  'Desa Durian',
+  'Sambas',
+  'Sambas',
+  'Kalimantan Barat',
   12944,
-  'Pengiringan adalah desa agraris di kaki perbukitan Bantarbolang. Sebagian besar warga bertani padi dan jagung, serta beternak sapi. Koperasi Desa Merah Putih hadir untuk menyatukan hasil bumi warga, memotong rantai tengkulak, dan memastikan keuntungan kembali ke tangan petani — bukan ke pemodal besar.',
+  'Desa Durian di Kecamatan Sambas, Kabupaten Sambas, Kalimantan Barat, bergerak bersama koperasi desa untuk menguatkan hasil bumi warga, memperluas akses pasar, dan memastikan manfaat ekonomi kembali ke keluarga petani serta pelaku usaha lokal.',
   array['Padi','Jagung','Sapi','Gula Aren']
 );
 
